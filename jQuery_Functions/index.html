@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
+    />
+    <title>jQuery Functions</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="container" id="top">
+      <div class="row" id="header">
+        <div class="col align-self-center">
+          <h2>jQuery Functions</h2>
+        </div>
+        <div class="col align-self-end" id="navbar">
+          <h5>Basic jQuery Functions in Action</h5>
+        </div>
+      </div>
+    </div>
+    <div class="container" id="middle">
+      <div class="row" id="content">
+        <div class="col-3" id="links">
+          <h6>Documentation</h6>
+          <ul>
+            <li>
+              <a href="https://api.jquery.com/click/#click">.click()</a>
+            </li>
+            <li>
+              <a href="https://api.jquery.com/hide/#hide">.hide()</a>
+            </li>
+            <li>
+              <a href="https://api.jquery.com/show/#show">.show()</a>
+            </li>
+            <li>
+              <a href="https://api.jquery.com/toggle/#toggle-duration-complete"
+                >.toggle()</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://api.jquery.com/slideDown/#slideDown-duration-complete"
+                >.slideDown()</a
+              >
+            </li>
+
+            <li>
+              <a
+                href="https://api.jquery.com/slideUp/#slideUp-duration-complete"
+                >.slideUp()</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://api.jquery.com/slideToggle/#slideToggle-duration-complete"
+                >.slideToggle()</a
+              >
+            </li>
+            <li>
+              <a href="https://api.jquery.com/fadeIn/#fadeIn-duration-complete"
+                >.fadeIn()</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://api.jquery.com/fadeOut/#fadeOut-duration-complete"
+                >.fadeOut()</a
+              >
+            </li>
+            <li>
+              <a href="https://api.jquery.com/addClass/#addClass-className"
+                >.addClass()</a
+              >
+            </li>
+            <li>
+              <a href="https://api.jquery.com/before/#before-content-content"
+                >.before()</a
+              >
+            </li>
+            <li>
+              <a href="https://api.jquery.com/after/#after-content-content"
+                >.after()</a
+              >
+            </li>
+            <li>
+              <a href="https://api.jquery.com/append/#append-content-content"
+                >.append()</a
+              >
+            </li>
+            <li>
+              <a href="https://api.jquery.com/html/#html">.html()</a>
+            </li>
+            <li>
+              <a href="https://api.jquery.com/attr/#attr-attributeName"
+                >.attr()</a
+              >
+            </li>
+            <li>
+              <a href="https://api.jquery.com/val/#val">.val()</a>
+            </li>
+            <li>
+              <a href="https://api.jquery.com/text/#text">.text()</a>
+            </li>
+          </ul>
+        </div>
+
+        <!--1st row of pictures-->
+        <div class="col-9" id="main">
+          <div class="row align-items-center">
+            <div class="col d-flex justify-content-center" id="cardBox">
+              <img id="card" src="css/img/card.jpg" />
+            </div>
+            <div class="col d-flex justify-content-center" id="hidingBox">
+              <img id="hiding" src="css/img/hiding.jpg" />
+            </div>
+            <div class="col d-flex justify-content-center" id="showBox">
+              <img id="curtain" src="css/img/curtain.jpg" />
+              <img id="show" src="css/img/show.jpg" />
+            </div>
+          </div>
+
+          <!--1st row of buttons-->
+          <div class="row" id="buttonBar">
+            <div class="col d-flex justify-content-center">
+              <button class="btn btn-sm" id="cardButton">
+                Fade Out
+              </button>
+            </div>
+            <div class="col d-flex justify-content-center">
+              <button class="btn btn-sm" id="hideButton">
+                Hide
+              </button>
+            </div>
+            <div class="col d-flex justify-content-center">
+              <button class="btn btn-sm" id="showButton">
+                Show
+              </button>
+            </div>
+          </div>
+
+          <!--2nd row of pictures-->
+          <div class="row">
+            <div
+              class="col align-items-start d-flex justify-content-center"
+              id="lightBox"
+            >
+              <img id="light" src="css/img/light.jpg" />
+            </div>
+            <div
+              class="col align-self-start d-flex justify-content-center"
+              id="slideUpBox"
+            >
+              <img id="slideguitar" src="css/img/slideUp.jpg" />
+            </div>
+            <div
+              class="col align-items-start d-flex justify-content-center"
+              id="slideBox"
+            >
+              <img id="slide" src="css/img/slide.jpg" />
+            </div>
+          </div>
+
+          <!--2nd row of buttons-->
+          <div class="row" id="buttonBar">
+            <div class="col d-flex justify-content-center">
+              <button class="btn btn-sm" id="lightSwitch">
+                Switch
+              </button>
+            </div>
+            <div class="col d-flex justify-content-center">
+              <button class="btn btn-sm" id="slideUpBtn">
+                Slide Up
+              </button>
+            </div>
+            <div class="col d-flex justify-content-center">
+              <button class="btn btn-sm" id="slideButton">
+                Slide Down
+              </button>
+            </div>
+          </div>
+
+          <!--3rd row of pictures-->
+          <div class="row align-items-center">
+            <div class="col d-flex justify-content-center" id="slidingBox">
+              <img id="sliding" src="css/img/sliding.jpg" />
+            </div>
+            <div class="col d-flex justify-content-center" id="fadingInBox">
+              <img id="fadingIn" src="css/img/fadingIn.jpg" />
+            </div>
+            <div class="col d-flex justify-content-center" id="addingClassBox">
+              <p id="addingClass">
+                This text has not been modified by jQuery's addClass
+                method.<span
+                  ><br />But this text most certainly will if you click the
+                  button below...</span
+                >
+              </p>
+            </div>
+          </div>
+
+          <!--3rd row of buttons-->
+          <div class="row" id="buttonBar">
+            <div class="col d-flex justify-content-center">
+              <button class="btn btn-sm" id="slidingBtn">
+                Sliding
+              </button>
+            </div>
+            <div class="col d-flex justify-content-center">
+              <button class="btn btn-sm" id="fadingInBtn">
+                Fade In
+              </button>
+            </div>
+            <div class="col d-flex justify-content-center">
+              <button class="btn btn-sm" id="addClassBtn">
+                Pink
+              </button>
+            </div>
+          </div>
+
+          <!--4th row of pictures-->
+          <div class="row align-items-center">
+            <div class="col d-flex justify-content-center" id="before">
+              <p>
+                Click the button below to add some add text beside me that
+                wasn't there before!
+              </p>
+            </div>
+            <div class="col d-flex justify-content-center" id="">
+              <img id="" src="" />
+            </div>
+            <div class="col d-flex justify-content-center" id="">
+              <p id=""></p>
+            </div>
+          </div>
+
+          <!--4th row of buttons-->
+          <div class="row" id="buttonBar">
+            <div class="col d-flex justify-content-center">
+              <button class="btn btn-sm" id="beforeBtn">Add Text</button>
+            </div>
+            <div class="col d-flex justify-content-center">
+              <button class="btn btn-sm" id=""></button>
+            </div>
+            <div class="col d-flex justify-content-center">
+              <button class="btn btn-sm" id=""></button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row" id="footer">
+        <div class="col"></div>
+      </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+    <script src="scripts.js/main.js"></script>
+  </body>
+</html>
