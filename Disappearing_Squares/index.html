@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Disappearing Squares</title>
+
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>Puppy Naptime</h1>
+      </div>
+      <div class="header">
+        <h4>
+          These puppies have been playing all day, and it's time for a nap!
+        </h4>
+      </div>
+      <div class="header">
+        <h4>
+          Help each puppy sleep by tapping it's forehead.
+        </h4>
+      </div>
+      <div class="header">
+        <h4>
+          Once all the puppies are asleep, you can take a nap too!
+        </h4>
+      </div>
+
+      <div class="row" id="topRow">
+        <div class="col"><img id="1" src="css/img/puppy1.jpg" /></div>
+        <div class="col"><img id="2" src="css/img/puppy2.jpg" /></div>
+        <div class="col"><img id="3" src="css/img/puppy3.jpg" /></div>
+        <div class="col"><img id="4" src="css/img/puppy4.jpg" /></div>
+      </div>
+
+      <div class="row" id="bottomRow">
+        <div class="col"><img id="5" src="css/img/puppy5.jpg" /></div>
+        <div class="col"><img id="6" src="css/img/puppy6.jpg" /></div>
+        <div class="col"><img id="7" src="css/img/puppy7.jpg" /></div>
+        <div class="col"><img id="8" src="css/img/puppy8.jpg" /></div>
+      </div>
+      <div class="row">
+        <button type="button" id="reset">Wake up all the puppies!</button>
+      </div>
+      <div class="row" id="timer">
+        These puppies will run away in... <span id="time">02:00</span> minutes!
+      </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="scripts/main.js"></script>
+  </body>
+</html>
